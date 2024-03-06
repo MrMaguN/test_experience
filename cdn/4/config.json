@@ -1,0 +1,130 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "4.9%",
+            "right": "61.3%",
+            "top": "18.7%",
+            "bottom": "18.8%",
+            "width": "33.8%",
+            "height": "62.5%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "31.1%",
+            "right": "6.4%",
+            "top": "8.1%",
+            "bottom": "29.4%",
+            "width": "62.5%",
+            "height": "62.5%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "exbVersion": "1.12.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/starter-widget/",
+      "version": "1.11.0",
+      "config": null,
+      "id": "widget_1"
+    },
+    "widget_2": {
+      "uri": "widgets/simple/",
+      "version": "1.12.0",
+      "label": "Simple",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_2"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://kalundborg.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "test_experience",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {
+      "small": "https://kalundborg.maps.arcgis.com/sharing/rest/content/items/032804c9d59c4d16bfeb33b16ed3b131/data"
+    }
+  },
+  "originExbVersion": "1.12.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "timestamp": 1709542300358,
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        null
+      ]
+    }
+  }
+}
